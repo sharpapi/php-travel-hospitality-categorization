@@ -89,19 +89,44 @@ try {
 
 ## Example Response
 ```json
+
 {
-  "data": {
-    "type": "api_job_result",
-    "id": "job-id-here",
-    "attributes": {
-      "status": "success",
-      "type": "content_processing",
-      "result": {
-        "content": "Processed result content here..."
-      }
+    "data": {
+        "type": "api_job_result",
+        "id": "afb7cc23-23a5-479c-92a9-be983792dabc",
+        "attributes": {
+            "status": "success",
+            "type": "tth_hospitality_product_categories",
+            "result": [
+                {
+                    "name": "Adult Only Hotels",
+                    "weight": 10
+                },
+                {
+                    "name": "Luxury Hotels",
+                    "weight": 8.5
+                },
+                {
+                    "name": "Boutique Hotels",
+                    "weight": 7.5
+                },
+                {
+                    "name": "Romantic Getaways",
+                    "weight": 7
+                },
+                {
+                    "name": "City Hotels",
+                    "weight": 6.5
+                },
+                {
+                    "name": "Couples Retreats",
+                    "weight": 6
+                }
+            ]
+        }
     }
-  }
 }
+
 ```
 ---
 

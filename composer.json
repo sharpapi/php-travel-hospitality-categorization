@@ -31,5 +31,9 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/sharpapi/php-travel-hospitality-categorization",
+        "issues": "https://github.com/sharpapi/php-travel-hospitality-categorization/issues"
+    }
 }
