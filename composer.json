@@ -1,0 +1,35 @@
+{
+    "name": "sharpapi/php-travel-hospitality-categorization",
+    "description": "Categorize hospitality products using AI - hotels, resorts with relevance scores",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "sharpapi",
+        "travel-hospitality",
+        "php",
+        "ai",
+        "api",
+        "travel",
+        "tourism",
+        "hospitality"
+    ],
+    "homepage": "https://sharpapi.com/",
+    "authors": [
+        {
+            "name": "A2Z WEB LTD",
+            "homepage": "https://sharpapi.com/"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "sharpapi/php-core": "^1.0.2",
+        "guzzlehttp/guzzle": "^7.0|^7.9|^7.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "SharpAPI\\TravelHospitality\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
